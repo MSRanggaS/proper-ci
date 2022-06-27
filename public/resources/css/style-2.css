@@ -1,0 +1,300 @@
+body{
+  font-family: poppins;
+}
+
+.display{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 34px;
+  font-weight: 600;
+}
+
+h4{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h5{
+  font-size: 26px;
+  font-weight: 600;
+}
+
+h6{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sub-head-1{
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.sub-head-2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.sub-head-3{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.sub-head-4{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.sub-head-5{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sub-head-6{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.body-1{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.body-2{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.body-3{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body-4{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #009DFB;
+  border-color: #009DFB;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2BB0FF;
+  border-color: #2BB0FF;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #2BB0FF;
+  border-color: #009DFB;
+}
+
+.btn-primary:active {
+  color: #fff;
+  background-color: #0064FB;
+  border-color: #0064FB;
+}
+
+.btn-secondary {
+  color: #009DFB;
+  background-color: #FFFFFF;
+  border-color: #009DFB;
+}
+
+.btn-secondary:hover {
+  color: #2BB0FF;
+  background-color: #FFFFFF;
+  border-color: #2BB0FF;
+}
+
+.btn-secondary:focus {
+  color: #2BB0FF;
+  background-color: #FFFFFF;
+  border-color: #009DFB;
+}
+
+.btn-secondary:active {
+  color: #fff;
+  background-color: #2BB0FF;
+  border-color: #2BB0FF;
+}
+
+.header-overlay {
+  padding-top: 110px;
+  padding-right: 270px;
+  padding-bottom: 210px;
+  padding-left: 210px;
+  position: relative;
+  top: -691px;
+  width: 100%;
+  height: 513px;
+  background-image: linear-gradient( to right, #009ffd95, #009ffd80, #009ffd60, #ffffff30 );
+}
+  
+.container-fluid{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content{
+  padding: 60px;
+  background: #009DFB;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.aspek{
+  padding: 45px;
+  background: #009DFB;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.icon-box{
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+  align-content: space-between;
+  display: grid;
+}
+
+.form-awal{
+  /* text-align: center; */
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  /* align-content: space-between;
+  display: grid; */
+}
+
+.form-utama{
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1430px;
+  }
+}
+
+footer {
+  /* margin-top: -80px; */
+  padding: 100px 2rem 2rem 2rem;
+  color: white;
+  background-color: #009DFB;
+  z-index: 0;
+}
+
+footer a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.companylink {
+  padding-left: 0;
+  list-style: none;
+}
+
+.companylink li {
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.card-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.navbar{
+  height: 70px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-item{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #606060;
+  font-size: 16px;
+  font-weight: 500;
+  height: 70px;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link{
+  height: 70px;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color:#2BB0FF;
+  border-bottom: 5px solid #2BB0FF
+}
+
+li.jarak{
+  margin-top: 30px;
+}
+
+li.jarak::marker{
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.result-card {
+  background-color: #F6F8FC;
+  border-radius: 5px;
+  padding: 25px;
+}
